@@ -611,4 +611,8 @@
             font-size: 12px;
         }
 
+        .prev, .next {
+            display: "none";
+        }
+
     }
