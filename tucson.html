@@ -339,6 +339,7 @@
     <script>
       function openModal() {
         document.getElementById("myModal").style.display = "block";
+        recognize();
         disableScroll();
       }
       
@@ -379,6 +380,7 @@
 
 
     <script>
+      function recognize() {
       var myElement = document.getElementById('modal');
 
       // create a simple instance
@@ -393,8 +395,9 @@
         mc.on("panright", function(ev) {
           plusSlides(-1);
         });
+      }
 
-          </script>
+      </script>
 
 
           <script>
