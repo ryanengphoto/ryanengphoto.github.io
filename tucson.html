@@ -372,7 +372,7 @@
         dots[slideIndex-1].className += " active";
         captionText.innerHTML = dots[slideIndex-1].alt;
       }
-      
+
       function swipedetect(el, callback){
 
           var touchsurface = el,
@@ -425,9 +425,11 @@ window.addEventListener('load', function(){
 var el = document.getElementById('mySlides')
 swipedetect(el, function(swipedir){
 if (swipedir =='left') {
-  showSlides(slideIndex += -1);
+  showSlides(slideIndex += 1);
+  document.getElementById("mySlides").style.display = "none";
 } else if (swipedir =='right'){
   showSlides(slideIndex += -1);
+  document.getElementById("mySlides").style.display = "none";
 }
 })
 }, false)
