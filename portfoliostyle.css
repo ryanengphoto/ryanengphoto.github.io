@@ -612,7 +612,7 @@
         }
 
         .prev, .next {
-            display: "none";
+            display: none;
         }
 
     }
