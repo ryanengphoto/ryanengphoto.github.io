@@ -135,7 +135,8 @@
 
 <div id="myModal" class="modal">
     <span class="close cursor" onclick="closeModal()">&times;</span>
-    <div class="modal-content" id="modal">
+    <div id="modal">
+    <div class="modal-content">
     <div class="mySlides">
         <img src="Tucson_2023/.." style="width:100%">
       </div>
@@ -321,7 +322,7 @@
       
       
       </div>
-      
+    </div>
      
     </main>
 
@@ -385,11 +386,11 @@
       var mc = new Hammer(myElement);
 
       // listen to events...
-      mc.on("swipeleft", function(ev) {
+      mc.on("panleft", function(ev) {
         plusSlides(1);
         });
 
-        mc.on("swiperight", function(ev) {
+        mc.on("panright", function(ev) {
           plusSlides(-1);
         });
 
