@@ -414,6 +414,19 @@
             height: auto;
         }
 
+        /* Modal Content */
+        .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            height: 70vh;
+            max-width: 80%;
+            padding: 2%;
+            }
+
+        .prev, .next {
+            font-size: 28px;
+        }
+
         #myBtn {
             display: none;
             position: fixed;
@@ -515,6 +528,14 @@
             visibility: visible;
         }
 
+        .prev,
+        .next {
+        width: auto;
+        padding: 2%;
+        color: black;
+        font-size: 40px;
+        border-radius: 0 1% 1% 0;
+        }
     }
 
 
@@ -544,20 +565,19 @@
             width: 15px;
         }
 
+        .content {
+            line-height:0;
+            -webkit-column-count:2; /* split it into 5 columns */
+            -webkit-column-gap:1%; /* give it a 5px gap between columns */
+            -moz-column-count:2;
+            -moz-column-gap:1%;
+            column-count:2;
+            column-gap:1%;
+        }
+
         #myBtn {
-            display: none;
-            position: fixed;
-            bottom: 20px;
-            right: 30px;
-            z-index: 99;
-            font-size: 1vw;
-            border: none;
-            outline: none;
-            background-color: #e6e6e6;
-            color: black;
-            cursor: pointer;
-            padding: .8vw;
-            border-radius: 4px;
+            font-size: 14px;
+            padding: 10px;
             }
             
         .left-sidebar {
