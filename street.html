@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="portfoliostyle.css">
+  <title> Ryan Eng Photo | Cars and Street </title>
+  <link rel="shortcut icon" type="image/png" href="photo_logo.png"/>
+  <script src="js/hammer.min.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/swipe.js"></script>
+  <script src="js/scrolldisable.js"></script>
+  <script src="js/dropdown.js"></script> 
+</head>
+
+<div class="left-sidebar-grid">
+
+    <header class="header">
+        <div class="logo">
+            <img src="photo_logo.png" alt="logo" style="width: 60%; height: 100%;">
+        </div>
+
+        <div class="navigation">
+            <a class="currentpage" href="index.html">Portfolio</a>
+            <a class="unselectedpage"href="about.html">About</a>
+            
+            <div class="dropdown">
+              <input type="image" src="dropdown.png" onclick="myFunction()" class="dropbtn"/>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="about.html">About</a>
+                <p><span>Florida</span></p>
+                <a href="index.html">Wildlife</a>
+                <a href="nature.html">Nature and Landscape</a>
+                <a href="street.html">Cars and Street</a>
+                <p><span>Trips</span></p>
+                <a href="iceland.html">Iceland 2023</a>
+                <a href="tucson.html">Tucson 2023</a>
+                <a href="montreal.html">Montreal 2022</a>
+              </div>
+            </div>
+        </div>
+
+        <div class="instagram">
+            <a href="https://www.instagram.com/ryanengphoto/" target="_blank"><img src="instagram.png" alt="instagram logo"></a>
+        </div>
+
+
+    </header>
+    
+    <section class="left-sidebar">
+        <div class="sidebarmenu">
+            <div class="dropdown">
+              <button class="dropbtn">Florida</button>
+              <div class="dropdown-content">
+              <a href="index.html" class="sidebarlink">Wildlife</a>
+              <a href="nature.html" class="sidebarlink">Nature and Landscape</a>
+              <a href="street.html" class="sidebarlink">Cars and Street</a>
+              </div>
+          </div>
+      <div class="dropdown">
+          <button class="dropbtn">Trips</button>
+          <div class="dropdown-content">
+          <a href="iceland.html" class="sidebarlink">Iceland 2023</a>
+          <a href="tucson.html" class="sidebarlink">Tucson 2023</a>
+          <a href="montreal.html" class="sidebarlink">Montreal 2022</a>
+          </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="main-content">
+        
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <script src="js/button.js"></script>
+      
+        <div class="content">
+      <img src="Street/1 16 2023 (32)-CR2_DxO_DeepPRIME_01.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" loading="lazy"> 
+          <img src="Street/12 16 2022 (1)-CR2_DxO_DeepPRIME_01.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow cursor" loading="lazy"> 
+          <img src="Street/12 16 2022 (2)-CR2_DxO_DeepPRIME_01.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow cursor" loading="lazy"> 
+          <img src="Street/12 16 2022 (3)-CR2_DxO_DeepPRIME_01.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow cursor" loading="lazy"> 
+          <img src="Street/12 16 2022 (23)-CR2_DxO_DeepPRIME_01.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow cursor" loading="lazy"> 
+          <img src="Street/11 3 2022 (5)-CR2_DxO_DeepPRIME_01.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow cursor" loading="lazy"> 
+          <img src="Street/10 29 2022 (80)-CR2_DxO_DeepPRIME_01.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow cursor" loading="lazy"> 
+          <img src="Street/10 29 2022 (92)-CR2_DxO_DeepPRIME_01.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow cursor" loading="lazy"> 
+          <img src="Street/10 29 2022 (99)-CR2_DxO_DeepPRIME_01.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow cursor" loading="lazy"> 
+          <img src="Street/10 29 2022 (100)-CR2_DxO_DeepPRIME_01.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow cursor" loading="lazy"> 
+          <img src="Street/IMG_9282-CR2_DxO_DeepPRIME_01.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow cursor" loading="lazy"> 
+          <img src="Street/4 21 2023 (10).jpg" onclick="openModal();currentSlide(12)" class="hover-shadow cursor" loading="lazy"> 
+          <img src="Street/4 21 2023 (44).jpg" onclick="openModal();currentSlide(13)" class="hover-shadow cursor" loading="lazy"> 
+          <img src="Street/4 21 2023 (111).jpg" onclick="openModal();currentSlide(14)" class="hover-shadow cursor" loading="lazy"> 
+          <img src="Street/4 21 2023 (159).jpg" onclick="openModal();currentSlide(15)" class="hover-shadow cursor" loading="lazy"> 
+          <img src="Street/5 6 2023 60d (686)-CR2_DxO_DeepPRIME.jpg" onclick="openModal();currentSlide(16)" class="hover-shadow cursor" loading="lazy"> 
+          <img src="Street/5 6 2023 5d (25).jpg" onclick="openModal();currentSlide(17)" class="hover-shadow cursor" loading="lazy"> 
+          <img src="Street/5 4 2023 (594).jpg" onclick="openModal();currentSlide(18)" class="hover-shadow cursor" loading="lazy"> 
+          <img src="Street/5 4 2023 (567).jpg" onclick="openModal();currentSlide(19)" class="hover-shadow cursor" loading="lazy"> 
+          <img src="Street/5 4 2023 (558)_02.jpg" onclick="openModal();currentSlide(20)" class="hover-shadow cursor" loading="lazy"> 
+          <img src="Street/5 4 2023 (545).jpg" onclick="openModal();currentSlide(21)" class="hover-shadow cursor" loading="lazy"> 
+          <img src="Street/5 4 2023 (508).jpg" onclick="openModal();currentSlide(22)" class="hover-shadow cursor" loading="lazy"> 
+          <img src="Street/5 4 2023 (492).jpg" onclick="openModal();currentSlide(23)" class="hover-shadow cursor" loading="lazy"> 
+          <img src="Street/5 4 2023 (470).jpg" onclick="openModal();currentSlide(24)" class="hover-shadow cursor" loading="lazy"> 
+          </div>
+      
+      <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div id="modal">
+          <div class="modal-content">
+          <div class="mySlides">
+              <img src="Street/1 16 2023 (32)-CR2_DxO_DeepPRIME_01.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+              <img src="Street/12 16 2022 (1)-CR2_DxO_DeepPRIME_01.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+              <img src="Street/12 16 2022 (2)-CR2_DxO_DeepPRIME_01.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+              <img src="Street/12 16 2022 (3)-CR2_DxO_DeepPRIME_01.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+              <img src="Street/12 16 2022 (23)-CR2_DxO_DeepPRIME_01.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+              <img src="Street/11 3 2022 (5)-CR2_DxO_DeepPRIME_01.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+              <img src="Street/10 29 2022 (80)-CR2_DxO_DeepPRIME_01.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+              <img src="Street/10 29 2022 (92)-CR2_DxO_DeepPRIME_01.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+              <img src="Street/10 29 2022 (99)-CR2_DxO_DeepPRIME_01.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+              <img src="Street/10 29 2022 (100)-CR2_DxO_DeepPRIME_01.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+              <img src="Street/IMG_9282-CR2_DxO_DeepPRIME_01.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+              <img src="Street/4 21 2023 (10).jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+              <img src="Street/4 21 2023 (44).jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+              <img src="Street/4 21 2023 (111).jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+              <img src="Street/4 21 2023 (159).jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+              <img src="Street/5 6 2023 60d (686)-CR2_DxO_DeepPRIME.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+              <img src="Street/5 6 2023 5d (25).jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+              <img src="Street/5 4 2023 (594).jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+              <img src="Street/5 4 2023 (567).jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+              <img src="Street/5 4 2023 (558)_02.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+              <img src="Street/5 4 2023 (545).jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+              <img src="Street/5 4 2023 (508).jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+              <img src="Street/5 4 2023 (492).jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+              <img src="Street/5 4 2023 (470).jpg" style="width:100%">
+            </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+      </div>
+      </div>
+      
+      </main>
+      
+      
+
+
+    
+
+
+    <footer class="footer">
+        <p>© 2023 Ryan Eng</p>
+        <p>ryanengphotobusiness@gmail.com</p>
+    </footer>
+
+</div>
